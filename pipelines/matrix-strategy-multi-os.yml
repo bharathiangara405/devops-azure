@@ -17,7 +17,8 @@ strategy:
   maxParallel: 3 # max 3 parallel jobs    
 
 pool:
-  vmImage: $(imageName)
+  #vmImage: $(imageName)
+  name: selfhosted
 
 steps:
 - task: NodeTool@0
